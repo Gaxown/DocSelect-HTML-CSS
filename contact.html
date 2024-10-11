@@ -15,6 +15,7 @@
   <title>DocSelect</title>
 
   <!-- slider stylesheet -->
+   <link rel="stylesheet" href="./css/contact-style.css">
   <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
   <!-- bootstrap core css -->
   <link rel="stylesheet" type="text/css" href="css/bootstrap.css" />
@@ -62,16 +63,16 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav ">
               <li class="nav-item">
-                <a class="nav-link" href="./index.html" target="_blank">Home <span class="sr-only">(current)</span></a>
+                <a class="nav-link" href="./index.html">Home <span class="sr-only">(current)</span></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./about.html" target="_blank"> About</a>
+                <a class="nav-link" href="./about.html"> About</a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="./services.html" target="_blank">Services</a>
+                <a class="nav-link" href="./services.html">Services</a>
               </li>
               <li class="nav-item active">
-                <a class="nav-link" href="./contact.html" target="_blank">Contact Us</a>
+                <a class="nav-link" href="./contact.html">Contact Us</a>
               </li>
             </ul>
           </div>
@@ -79,6 +80,7 @@
       </div>
     </div>
 </header>
+<!-- 
 <section class="contact_section layout_padding section-container">
     <div class="container">
       <div class="heading_container">
@@ -88,21 +90,30 @@
       </div>
       <div class="row">
         <div class="col-md-6">
-          <form action="">
+          <form action="" class="form">
             <div>
-                <label for="">Name</label>
+                <label>Name</label>
                 <input type="text" placeholder="Name" />
             </div>
             <div>
-                <label for="">Phone Number</label>
+                <label>Phone Number</label>
                 <input type="text" placeholder="Phone Number" />
             </div>
             <div>
-                <label for="">Email adress</label>
+                <label>Email adress</label>
                 <input type="email" placeholder="Email" />
             </div>
-            <div>
-                <label for="">Description</label>
+            <div class="options-container">
+                <label>Country</label>
+                <select id="">
+                  <option>Morocco</option>
+                  <option>Kenya</option>
+                  <option>Ghana</option>
+                  <option>Senegal</option>
+                </select>
+            </div>
+            <div class="contact-description">
+                <label>Description</label>
               <input type="text" class="message-box" placeholder="Message" />
             </div>
             <div class="d-flex ">
@@ -123,7 +134,74 @@
         </div>
       </div>
     </div>
+</section> -->
+<!-- Contact Section -->
+ <!-- Contact Section -->
+<section class="contact_section">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-6">
+        <div class="contact_info">
+          <h2>Get in Touch</h2>
+          <p>We're here to help you with any questions or concerns you may have. Please don't hesitate to reach out to us using the form below. We'll get back to you as soon as possible.</p>
+          <ul>
+            <li>
+              <i class="fas fa-map-marker-alt"></i>
+              <span>Address:</span>
+              <span>16380-00100 Nairobi GPO, Nairobi, Kenya</span>
+            </li>
+            <li>
+              <i class="fas fa-phone"></i>
+              <span>Phone:</span>
+              <span>(555) 555-5555</span>
+            </li>
+            <li>
+              <i class="fas fa-envelope"></i>
+              <span>Email:</span>
+              <span>info@example.com</span>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="contact_form">
+          <h2>Send a Message</h2>
+          <form>
+            <div class="form-group">
+              <input type="text" class="form-control" id="name" placeholder="Name">
+            </div>
+            <div class="form-group">
+              <input type="email" class="form-control" id="email" placeholder="Email">
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" id="subject" placeholder="Subject">
+            </div>
+            <div class="form-group">
+              <select class="form-control" id="country">
+                <option value="">Select Country</option>
+                <option value="USA">United States</option>
+                <option value="Canada">Canada</option>
+                <option value="Mexico">Mexico</option>
+                <option value="United Kingdom">United Kingdom</option>
+                <option value="Australia">Australia</option>
+                <option value="Germany">Germany</option>
+                <option value="France">France</option>
+                <option value="Italy">Italy</option>
+                <option value="Spain">Spain</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <textarea class="form-control" id="message" placeholder="Message"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
 </section>
+ <!-- Contact Section -->
+<!-- Contact Section -->
 <section class="info_section ">
     <div class="container">
       <h4>
@@ -140,7 +218,7 @@
                       <i class="fa fa-map-marker" aria-hidden="true"></i>
                     </div>
                     <p>
-                        Postal  : 16380-00100 Nairobi GPO, Nairobi, Kenya
+                        16380-00100 Nairobi GPO, Nairobi, Kenya
                     </p>
                   </div>
                 </a>

@@ -1,0 +1,84 @@
+.contact_section {
+  padding: 90px 0;
+  background-color: #f7f7f7;
+}
+
+.contact_info {
+  padding: 30px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact_info h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.contact_info p {
+  margin-bottom: 20px;
+}
+
+.contact_info ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.contact_info ul li {
+  margin-bottom: 10px;
+}
+
+.contact_info ul li i {
+  margin-right: 10px;
+  color: #333;
+}
+
+.contact_info ul li span {
+  font-size: 16px;
+  color: #666;
+}
+
+.contact_form {
+  padding: 30px;
+  background-color: #fff;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact_form h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.contact_form form {
+  margin-top: 20px;
+}
+
+.contact_form .form-group {
+  margin-bottom: 20px;
+}
+
+.contact_form .form-control {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.contact_form .form-control:focus {
+  border-color: #333;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.contact_form select.form-control {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  height: 40px;
+}
+
+.contact_form .btn-primary {
+  padding: 10px 20px;
+  font-size: 16px;
+  background-color: #3498db;
+}

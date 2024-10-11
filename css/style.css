@@ -875,3 +875,20 @@ a:focus {
 
 /* end footer section*/
 /* # sourceMappingURL=style.css.map */
+
+.options-container {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 25px;
+}
+
+.options-container select {
+  font-size: inherit;
+  padding-left: 20px;
+  height: 50px;
+}
+
+input.message-box {
+  text-align: start;
+  text-wrap: wrap;
+}
